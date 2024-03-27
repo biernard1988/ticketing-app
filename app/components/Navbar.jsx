@@ -3,8 +3,8 @@ import { FaHouse, FaTicket } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
-    <nav>
-      <div>
+    <nav className="flex justify-between bg-nav p-4">
+      <div className="flex items-center space-x-4">
         <Link href="/">
           <FaHouse className="icon" />
         </Link>
